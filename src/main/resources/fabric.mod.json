@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "km7ladders",
+  "version": "${version}",
+
+  "name": "More Ladders",
+  "description": "Adds more ladders. Currently just has wooden ladders.",
+  "authors": [
+    "Kingminer7"
+  ],
+
+  "license": "CC0-1.0",
+  "icon": "assets/km7ladders/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kingminer7.km7ladders.MoreLadders"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
