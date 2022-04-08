@@ -16,8 +16,7 @@ public class MoreLadders implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-
 		LOGGER.info(NAME + " version " + VERSION + " by " + AUTHOR + " has loaded!");
+
 	}
 }
